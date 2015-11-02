@@ -1,1 +1,141 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Visualizations for Feedback API">
+    <meta name="author" content="Tanvi">
+
+    <title>Feedback Dashboard</title>
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- My CSS -->   
+    <link href="css/my.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+</head>
+
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#daily">By Day</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#products">By Product</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#platforms">By Platform</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Feedback API Dashboard</h1>
+                    <a class="btn btn-lg btn-danger page-scroll" href="#daily">Explore More!</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Last 24 hours Analysis Section -->
+    <section id="daily" class="eachday-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Daily</h1>
+                    <ul class="list-group">
+                      <li class="list-group-item"><a href="#">Success</a></li>
+                      <li class="list-group-item"><a href="#">Major Issues</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Products</h1>                   
+                    <ul class="list-group">
+                      <li class="list-group-item"><a href='#'>Firefox for Android</a></li>
+                      <li class="list-group-item"><a href="#">Firefox</a></li>
+                      <li class="list-group-item"><a href="#">Firefox OS</a></li>
+                      <li class="list-group-item"><a href="#">Firefox for iOS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section id="platforms" class="platforms-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Platforms</h1>
+
+                    <ul class="list-group">
+                      <li class="list-group-item"><span class="badge">50%</span>Android</li>
+                      <li class="list-group-item"><span class="badge">15%</span>Windows 7</li>
+                      <li class="list-group-item"><span class="badge">8%</span>Windows 10</li>
+                      <li class="list-group-item"><span class="badge">8%</span>Firefox OS</li>
+                      <li class="list-group-item"><span class="badge">6%</span>Windows XP</li>
+                      <li class="list-group-item"><span class="badge">4%</span>Windows 8.1</li>
+                      <li class="list-group-item"><span class="badge">3%</span>OS X</li>
+                      <li class="list-group-item"><span class="badge">2%</span>Unknown</li>
+                      <li class="list-group-item"><span class="badge">2%</span>Linux</li>
+                      <li class="list-group-item"><span class="badge">1%</span>Windows Vista</li>
+                      <li class="list-group-item"><span class="badge">1%</span>Windows 8</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+</html>

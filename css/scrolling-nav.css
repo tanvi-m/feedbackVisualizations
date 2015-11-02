@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.eachday-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.products-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.platforms-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.quote-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+#backquote {
+    background-image: url(http://typespiration.com/wp-content/themes/typespiration/images/quote.png); 
+    background-position: 10px 10%;  
+    background-repeat: no-repeat no-repeat; 
+    padding: 150px 0;
+}
+
+#quote {
+    color: #f2f2f2; 
+    background: #ff4a4a; 
+    font-size: 75px; 
+    line-height: 74px; 
+    font-weight: 700; 
+    margin: 0 5px 24px; 
+    float: left; 
+    padding: 10px; 
+    margin: 0 5px 24px; 
+    font-family: 'Libre Baskerville', serif;
+}
+
+#punchline {
+    background: #f2f2f2; 
+    color: #ff4a4a;
+}

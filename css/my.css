@@ -1,0 +1,57 @@
+.liquidFillGaugeText { font-family: Helvetica; font-weight: bold; }
+path {  
+        stroke: #fff; 
+    }
+path:hover {  
+        opacity:0.9; 
+    }
+    rect:hover {  
+        fill:#543400; 
+    }
+    .axis {  
+        font: 10px sans-serif; 
+    }
+    .legend tr{    
+        border-bottom:1px solid grey; 
+
+    }
+    .legend tr:first-child{ 
+        border-top:1px solid grey; 
+    }
+    .tooltip {
+        background: #eee;
+        box-shadow: 0 0 5px #999999;
+        color: #333;
+        display: none;
+        font-size: 12px;
+        left: 130px;
+        padding: 10px;
+        position: absolute;
+        text-align: center;
+        top: 95px;
+        width: 80px;
+        z-index: 10;
+    }
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+    .x.axis path {  
+        display: none; 
+    }
+    .legend{
+        margin-bottom:76px;
+        display:inline-block;
+        border-collapse: collapse;
+        border-spacing: 0px;
+    }
+    .legend td{
+        padding:4px 5px;
+        vertical-align:bottom;
+    }
+    .legendFreq, .legendPerc{
+        align:right;
+        width:50px;
+    }
